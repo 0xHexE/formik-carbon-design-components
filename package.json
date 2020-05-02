@@ -14,7 +14,7 @@
   "repository": "https://github.com/httpsomkar/formik-carbon-design-components",
   "scripts": {
     "start": "cross-env STORYBOOK_DEBUG=true SBCONFIG_CONFIG_DIR=scripts/storybook start-storybook -p 4000 --quiet --ci",
-    "build": "rollup -c ../scripts/build/rollup.config.js",
+    "build": "rollup -c ./scripts/build/rollup.config.js",
     "build-watch": "npm run build -- -w",
     "prepublish-documentation": "build-storybook -c ../scripts/storybook -o storybook-static",
     "publish-documentation": "storybook-to-ghpages --out=storybook-static --existing-output-dir=storybook-static",
