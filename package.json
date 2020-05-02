@@ -1,6 +1,6 @@
 {
   "name": "formik-carbon-design-components",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "This is binding for the formik of carbon design system",
   "keywords": [
     "react",
@@ -26,7 +26,8 @@
     "precommit": "lint-staged",
     "generate": "node --experimental-modules node_modules/.bin/plop --plopfile ./scripts/templates/index.js",
     "update-packages": "npx npm-check-updates -u && npm i",
-    "format:prettier": "prettier --write src"
+    "format:prettier": "prettier --write src",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -86,6 +87,7 @@
     "rollup-plugin-postcss": "2.5.0",
     "rollup-plugin-terser": "5.3.0",
     "sass-loader": "8.0.2",
+    "semantic-release": "^17.0.7",
     "standard-version": "7.1.0",
     "typescript": "^3.8.3"
   },
