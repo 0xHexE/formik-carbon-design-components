@@ -4,7 +4,6 @@ import { useField } from 'formik';
 import {
   Checkbox,
   DatePicker,
-  Dropdown,
   RadioButtonGroup,
   Search,
 } from 'carbon-components-react';
