@@ -27,7 +27,8 @@
     "generate": "node --experimental-modules node_modules/.bin/plop --plopfile ./scripts/templates/index.js",
     "update-packages": "npx npm-check-updates -u && npm i",
     "format:prettier": "prettier --write src",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "commit": "npx git-cz"
   },
   "dependencies": {
     "react": "16.13.1",
