@@ -157,12 +157,10 @@
   },
   "lint-staged": {
     "**/*.{js,json,css}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "src/**/*.js": [
-      "npm run lint",
-      "git add"
+      "npm run lint"
     ]
   },
   "husky": {
