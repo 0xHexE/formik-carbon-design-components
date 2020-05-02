@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import rimraf from 'rimraf';
 import autoExternal from 'rollup-plugin-auto-external';
-import babel from '@rollup/plugin-babel̦';
+import babel from '@rollup/plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 import { terser } from 'rollup-plugin-terser';
 import packageJson from '../../package.json';
